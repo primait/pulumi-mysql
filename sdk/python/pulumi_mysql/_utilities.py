@@ -288,4 +288,4 @@ async def _await_output(o: pulumi.Output[typing.Any]) -> typing.Tuple[object, bo
     )
 
 def get_plugin_download_url():
-	return "github://api.github.com/unobravo/pulumi-mysql"
+	return "github://api.github.com/primait/pulumi-mysql"

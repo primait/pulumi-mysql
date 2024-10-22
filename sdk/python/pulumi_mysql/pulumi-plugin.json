@@ -1,5 +1,5 @@
 {
   "resource": true,
   "name": "mysql",
-  "server": "github://api.github.com/unobravo/pulumi-mysql"
+  "server": "github://api.github.com/primait/pulumi-mysql"
 }
