@@ -26,7 +26,7 @@ setup(name='pulumi_mysql',
       keywords='unobravo mysql category/cloud',
       url='https://www.pulumi.com',
       project_urls={
-          'Repository': 'https://github.com/unobravo/pulumi-mysql'
+          'Repository': 'https://github.com/primait/pulumi-mysql'
       },
       license='Apache-2.0',
       packages=find_packages(),
