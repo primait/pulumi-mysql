@@ -133,7 +133,7 @@ func Provider() tfbridge.ProviderInfo {
 		Keywords:                []string{"unobravo", "mysql", "category/cloud"},
 		License:                 "Apache-2.0",
 		Homepage:                "https://www.pulumi.com",
-		Repository:              "https://github.com/unobravo/pulumi-mysql",
+		Repository:              "https://github.com/primait/pulumi-mysql",
 		TFProviderModuleVersion: "v3",
 		// The GitHub Org for the provider - defaults to `terraform-providers`. Note that this should
 		// match the TF provider module's require directive, not any replace directives.
