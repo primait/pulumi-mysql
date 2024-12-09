@@ -65,3 +65,13 @@ Based on [this issue](https://github.com/pulumi/pulumi-mysql/issues/145), Pulumi
 ## Reference
 
 For further information on the resources supported by the Terraform provider, please visit the [documentation](https://registry.terraform.io/providers/petoju/mysql/3.0.63/docs).
+
+
+
+## Bump library version with bumpversion
+
+```bash
+bumpversion --current-version $(git describe) patch
+```
+
+This will bump the version in the `setup.py` file and create a new tag with the new version.
