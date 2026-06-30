@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "pulumi-mysql"
+  description: "MySQL Resource Provider"
+spec:
+  type: "library"
+  lifecycle: production
+  owner: "group:default/team-core"
+  system: prima.it
